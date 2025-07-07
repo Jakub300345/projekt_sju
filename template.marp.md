@@ -13,15 +13,16 @@ style: |
   @import url('https://unpkg.com/tailwindcss@^2/dist/utilities.min.css');
 ---
 
-# Slajd 1
+# Projekt - Sieć Jako Usługa
 
-## Nagłówek 1
+## Przebieg projektu
 
 ![w:600](obraz.png)
+Decyzja podjęta na robienie projektu lokalnie.
+- Instalacja wszystkich potrzebnych programów: Docker, WSL. Używany był już program git bash.
+- 
+- Uruchomienie budowania obrazu
 
-- punkt 1
-- punkt 2
-- punkt 3
 
 ---
 
