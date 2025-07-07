@@ -2,7 +2,7 @@
     "workspaceMount": "source=${localWorkspaceFolder},target=/home/vscode/workspace,type=bind,consistency=cached",
     "workspaceFolder": "/home/vscode/workspace",
     "name": "Projekt-SJU",
-    "image": "ghcr.io/jakub300345/projekt_sju:latest",
+    "image": "sjuprojekt",
     "customizations": {
         "vscode": {
             "extensions": [
