@@ -29,7 +29,7 @@ Decyzja podjęta na robienie projektu lokalnie.
 
 - dodanie pakietów do Dockerfile i zbudowanie obrazu
 - Utworzenie pliku .devcontainer/devcontainer.json
-![w:600](/obrazy/devcont.png)
+![w:600](doc/obrazy/devcont.png)
 - dodanie odpowiednich rozszerzeń do VS Code
 
 ---
@@ -37,7 +37,7 @@ Decyzja podjęta na robienie projektu lokalnie.
 ## Przebieg projektu
 
 - utworzenie release
-![w:600](/obrazy/devcont.png)
+![w:600](doc/obrazy/devcont.png)
 - utworzenie pliku test.py
 - docker-publish.yml oraz modyfikacja pliku
 ---
@@ -45,5 +45,14 @@ Decyzja podjęta na robienie projektu lokalnie.
 - zmiana wpisu image na taki, który wskazuje na nowo zbudowany obraz
 - umieszczenie notatnika używanego z przedmiotu Kwantowe Systemy Teleinformatyki
 - dodanie biblioteki do Dockerfile, aby umożliwić działanie notatnika
+![w:400](doc/obrazy/testy.png)
+---
+# Przebieg
+![w:600](doc/obrazy/mermaid.png)
+
+---
+
+##  Podsumowanie
+Projekt został wykonany pomyślnie, lecz na przestrzeni robienia projektu napotkane zostało kilka problemów, które następnie zostały rozwiązane. Największym problemem na początku była obsługa Dockera w Codespaces, stąd użyto lokalnej formy wykonania projektu. 
 
 Jakub Zarębski
