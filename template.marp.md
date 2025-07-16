@@ -17,44 +17,33 @@ style: |
 
 ## Przebieg projektu
 
-![w:600](obraz.png)
+
 Decyzja podjęta na robienie projektu lokalnie.
 - Instalacja wszystkich potrzebnych programów: Docker, WSL. Używany był już program git bash.
-- 
-- Uruchomienie budowania obrazu
-
-
----
-
-# Slajd 2
-
-## Dwie kolumny
-
-<div class="grid grid-cols-2 gap-4 items-start">
-<div class="col-span-1">
-
-Kolumna 1
-
-</div><div class="col-span-1">
-
-Kolumna 2
-
-</div>
-</div>
-
-<!--
-1. Pierwszy komentarz dla prezentującego.
-2. Drugi komentarz dla prezentującego.
--->
+- Uruchomienie budowania obrazu, wejście do kontenera
+'docker run -it --rm -v .:/home/vscode/workspace sjuprojekt bash'
 
 ---
 
-# Slajd 3
+## Przebieg projektu
 
-## Fragment wycentrowany w poziomie
+- dodanie pakietów do Dockerfile i zbudowanie obrazu
+- Utworzenie pliku .devcontainer/devcontainer.json
+![w:600](/obrazy/devcont.png)
+- dodanie odpowiednich rozszerzeń do VS Code
 
-<div class="flex justify-center">
+---
 
-![W:600](https://some.where.io/some.picture.png)
+## Przebieg projektu
 
-</div>
+- utworzenie release
+![w:600](/obrazy/devcont.png)
+- utworzenie pliku test.py
+- docker-publish.yml oraz modyfikacja pliku
+---
+
+- zmiana wpisu image na taki, który wskazuje na nowo zbudowany obraz
+- umieszczenie notatnika używanego z przedmiotu Kwantowe Systemy Teleinformatyki
+- dodanie biblioteki do Dockerfile, aby umożliwić działanie notatnika
+
+Jakub Zarębski
