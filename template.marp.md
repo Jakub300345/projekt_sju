@@ -4,6 +4,7 @@ math: mathjax
 title: Raport z projektu
 size: 16:9
 paginate: true
+mermaid: true
 transition: fade
 theme: gaia
 # theme: uncover
@@ -29,7 +30,7 @@ Decyzja podjęta na robienie projektu lokalnie.
 
 - dodanie pakietów do Dockerfile i zbudowanie obrazu
 - Utworzenie pliku .devcontainer/devcontainer.json
-![w:600](doc/obrazy/devcont.png)
+![w:600](devcont.png)
 - dodanie odpowiednich rozszerzeń do VS Code
 
 ---
@@ -37,7 +38,7 @@ Decyzja podjęta na robienie projektu lokalnie.
 ## Przebieg projektu
 
 - utworzenie release
-![w:600](doc/obrazy/devcont.png)
+![w:400](testy.png)
 - utworzenie pliku test.py
 - docker-publish.yml oraz modyfikacja pliku
 ---
@@ -45,10 +46,10 @@ Decyzja podjęta na robienie projektu lokalnie.
 - zmiana wpisu image na taki, który wskazuje na nowo zbudowany obraz
 - umieszczenie notatnika używanego z przedmiotu Kwantowe Systemy Teleinformatyki
 - dodanie biblioteki do Dockerfile, aby umożliwić działanie notatnika
-![w:400](doc/obrazy/testy.png)
+
 ---
 # Przebieg
-![w:600](doc/obrazy/mermaid.png)
+![w:600](mermaid.png)
 
 ---
 
